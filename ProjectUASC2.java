@@ -67,7 +67,7 @@ public class ProjectUASC2 {
 
     }
     public void totalTarifSewa(){
-        for(int i = 0; i <3 ; i++){
+        for(int i = 0; i <2 ; i++){
             switch (jenisKendaraan[i]) {
                 case 1:
                     if (jumlahHariSewa[i] > 3){
@@ -163,8 +163,8 @@ public class ProjectUASC2 {
         }
         else{
             System.out.println("Data Penyewaan:");
-            for (int i = 0; i < 3; i++){
-                System.out.println("No. Urut: " + (i));
+            for (int i = 0; i < 2; i++){
+                System.out.println("No. Urut: " + (i + 1));
                 System.out.println("Nama Penyewa: " + namaPenyewa[i]);
                 System.out.println("Jenis Kendaraan: " + jenisKendaraan[i]);
                 System.out.println("Jumlah Hari Sewa: " + jumlahHariSewa[i]);
